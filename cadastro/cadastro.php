@@ -9,6 +9,9 @@ $select = mysql_query($query_select,$connect);
 $array = mysql_fetch_array($select);
 $logarray = $array['login'];
  
+/*
+* Teste
+*/
   if($login == "" || $login == null){
     echo"<script language='javascript' type='text/javascript'>
     alert('O campo login deve ser preenchido');window.location.href='

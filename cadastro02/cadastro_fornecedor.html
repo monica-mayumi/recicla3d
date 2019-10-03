@@ -1,0 +1,28 @@
+<html>
+<head>
+<title> Cadastro do Fornecedor </title>
+</head>
+<link rel="stylesheet" href="css/estilo.css"/>
+<body>
+<nav>
+	<div class="container">
+<form method="POST" action="cadastro.php">
+Nome da Empresa<br>
+<input type="text" name="nome" class="campo" maxlength="50" required autofocus><br></br>
+E-mail<br>
+<input type="email" name="email" class="campo" maxlength="50"><br></br>
+CNPJ<br>
+<input type="number" name="cnpj" class="campo" maxlength="11"><br></br>
+
+Telefone comercial<br>
+<input type="text" name="telefone" class="campo" maxlength="10"><br></br>
+Nome de usuario<br>
+<input type="text" name="usuario" id="usuario" maxlength="50"><br></br>
+Senha<br>
+<input type="password" name="senha" id="senha" maxlength="20"><br></br>
+<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+		</div>
+	</nav>
+	</form>
+	</body>
+	</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title> Cadastro de Usuário </title>
+</head>
+<link rel="stylesheet" href="css/estilo.css"/>
+<body>
+<nav>
+	<div class="container">
+<form method="POST" action="cadastro.php">
+Nome completo <br>
+<input type="text" name="nome" class="campo" maxlength="50"  placeholder="Ex AmandaSilva" required autofocus><br></br>
+E-mail<br>
+<input type="email" name="email" class="campo" placeholder="EX: vbernardes17@outlok.com" maxlength="50"><br></br>
+CPF<br>
+<input type="text" name="cpf" class="campo"  placeholder="informe seu CPF" maxlength="11"><br></br>
+CEP<br>
+<input type="text" name="cep" class="campo"   placeholder="Informe seu CEP" maxlength="8"><br></br>
+Telefone(Celular)<br>
+<input type="text" name="telefone" class="campo"  placeholder="(11)99999-9999" maxlength="10"><br></br>
+Nome de usuario<br>
+<input type="text" name="usuario" id="usuario" placeholder="APrecicla" maxlength="50"><br></br>
+Senha<br>
+<input type="password" name="senha" id="senha" maxlength="20" placeholder="informe a sua senha"><br></br>
+Confirme sua senha<br>
+<input type="password" name="senha_confirma" id="senha_confirma" placeholder="confirme sua senha"><br></br>
+<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
+		</div>
+	</nav>
+	</form>
+	</body>
+	</html>

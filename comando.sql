@@ -1,1 +1,0 @@
-Comandos SQL - criar tabelas

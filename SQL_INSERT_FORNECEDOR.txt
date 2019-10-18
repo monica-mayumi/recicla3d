@@ -1,0 +1,37 @@
+colum
+INSERT INTO `recicla3d`.`fornecedor`
+(`Codigo_Empresa`,
+`Nome_Empresa`,
+`Email`,
+`cnpj`,
+`Telefone_Comercial`,
+`Login`,
+`Senha`)
+VALUES(1,tesla,mayumi.monica.furusho@gmail.com,494548,1599695337,mayumi,nesperapower)
+INSERT INTO `recicla3d`.`fornecedor`
+(`Codigo_Empresa`,
+`Nome_Empresa`,
+`Email`,
+`cnpj`,
+`Telefone_Comercial`,
+`Login`,
+`Senha`)
+VALUES(2,taira,taira@gmail.com,8498498,9985458,taira,oidoi)
+INSERT INTO `recicla3d`.`fornecedor`
+(`Codigo_Empresa`,
+`Nome_Empresa`,
+`Email`,
+`cnpj`,
+`Telefone_Comercial`,
+`Login`,
+`Senha`)
+VALUES(3,,,0,0,,)
+INSERT INTO `recicla3d`.`fornecedor`
+(`Codigo_Empresa`,
+`Nome_Empresa`,
+`Email`,
+`cnpj`,
+`Telefone_Comercial`,
+`Login`,
+`Senha`)
+VALUES(4,lotus,lotus@gmail.com,4998798,9955995,lotus,grgnrnqr)

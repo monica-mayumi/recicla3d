@@ -1,0 +1,19 @@
+colum
+INSERT INTO `recicla3d`.`usuario`
+(`Nome_completo`,
+`Email`,
+`CPF`,
+`CEP`,
+`Telefone`,
+`Login`,
+`Senha`)
+VALUES(nina,nina@gmail.com,48855499,9726,1599695337,nina,nina)
+INSERT INTO `recicla3d`.`usuario`
+(`Nome_completo`,
+`Email`,
+`CPF`,
+`CEP`,
+`Telefone`,
+`Login`,
+`Senha`)
+VALUES(Monica Mayumi Furusho,monicamayumi44@gmail.com,46499804886,9726170,1599695337,monica,nesperapower)

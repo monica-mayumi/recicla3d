@@ -1,0 +1,45 @@
+create database recicla3d;
+
+use recicla3d;
+
+
+CREATE TABLE `administrador` (
+  `idadministrador` int(11) NOT NULL AUTO_INCREMENT,
+  `Login` varchar(50) NOT NULL,
+  `Senha` varchar(50) NOT NULL,
+  PRIMARY KEY (`idadministrador`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `fornecedor` (
+  `idfornecedor` int(11) NOT NULL AUTO_INCREMENT,
+  `Nome_Empresa` varchar(50) NOT NULL,
+  `Email` varchar(50) NOT NULL,
+  `CNPJ` varchar(11) NOT NULL,
+  `Telefone_Comercial` varchar(11) NOT NULL,
+  `Login` varchar(50) NOT NULL,
+  `Senha` varchar(50) NOT NULL,
+  PRIMARY KEY (`idfornecedor`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `produto` (
+  `idproduto` int(11) NOT NULL AUTO_INCREMENT,
+  `Nome_Produto` varchar(50) NOT NULL,
+  `Tipo_Material` varchar(50) NOT NULL,
+  `Quantidade` varchar(20) NOT NULL,
+  PRIMARY KEY (`idproduto`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `usuario_colaborador` (
+  `idusuario_colaborador` int(11) NOT NULL AUTO_INCREMENT,
+  `Nome_Completo` varchar(50) NOT NULL,
+  `Email` varchar(50) NOT NULL,
+  `CPF` varchar(11) NOT NULL,
+  `CEP` varchar(8) NOT NULL,
+  `Telefone` varchar(11) NOT NULL,
+  `Login` varchar(50) NOT NULL,
+  `Senha` varchar(50) NOT NULL,
+  PRIMARY KEY (`idusuario_colaborador`),
+  UNIQUE KEY `Login` (`Login`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
